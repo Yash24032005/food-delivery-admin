@@ -14,4 +14,6 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://fooddelivery-backend-6de0.onrender.com'
+
+// Vite projects ke liye environment variable check karne ka sahi tarika
+export const url = import.meta.env.VITE_BACKEND_URL || "https://food-delivery-backend-z8wb.onrender.com";
